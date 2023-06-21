@@ -43,6 +43,7 @@ CREATE TABLE `locales_platillos` (
 -- TABLA DEL MOBILIARIO DE CADA LOCAL
 CREATE TABLE `mobiliario` (
   `id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(40) NOT NULL,
   `seccion` varchar(40) NOT NULL,
   `costo` int NOT NULL,
   `en_servicio` bit(1) NOT NULL,
@@ -65,7 +66,6 @@ CREATE TABLE `promociones` (
 CREATE TABLE `puestos` (
   `id` int NOT NULL AUTO_INCREMENT,
   `posicion` varchar(40) NOT NULL,
-  `salario` int NOT NULL,
   `beneficios` varchar(40) DEFAULT NULL,
   `departamento` varchar(40) NOT NULL,
   `id_salario` int DEFAULT NULL,
@@ -88,6 +88,7 @@ CREATE TABLE `restaurante` (
 -- TABLA DE SALARIOS EXISTENTES
 CREATE TABLE `salarios` (
   `id_salario` int NOT NULL AUTO_INCREMENT,
+  `salario` int NOT NULL,
   `impuestos` int NOT NULL,
   `deducciones` int DEFAULT NULL,
   PRIMARY KEY (`id_salario`)
