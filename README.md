@@ -1,5 +1,5 @@
 # DB-restaurant-los-tacos-amigos
-Here I create a DB for a Mexican restaurant where I apply what I learned about SQL and MySQL Workbench by creating multiple tables to represent the login and workflow of the restaurant. Enjoy! 🌮🇲🇽🌯
+Here I created a DB for a Mexican restaurant where I apply what I learned about SQL and MySQL Workbench by creating multiple tables to represent the logic and workflow of the restaurant, I also created the same DB but in NoSQL, Firestore form Google to be more precise. Enjoy! 🌮🇲🇽🌯
 
 ## ER Diagram images with all the restaurant tables
 <img width="974" alt="Screenshot 2023-06-20 at 19 28 12" src="https://github.com/Fer-dev-gt/DB-restaurant-los-tacos-amigos/assets/119085740/54926c04-ac69-40e2-8ed8-c19c9a882a5e">
@@ -12,3 +12,6 @@ Here I create a DB for a Mexican restaurant where I apply what I learned about S
 
 ## ER Diagram with cardinalness
 <img width="1249" alt="Screenshot 2023-06-20 at 23 39 37" src="https://github.com/Fer-dev-gt/DB-restaurant-los-tacos-amigos/assets/119085740/2135bf75-d96b-4352-9a44-a9bf7bde16e6">
+
+## NoSQL DB create in Google's Firestore
+<img width="1315" alt="Screenshot 2023-06-21 at 18 51 37" src="https://github.com/Fer-dev-gt/DB-restaurant-los-tacos-amigos/assets/119085740/3c836235-2f28-4584-984d-b8c897684fd1">
